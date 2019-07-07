@@ -4,8 +4,7 @@ import { EmjService } from '../service/emj.service';
 
 @Component({
   selector: 'app-all',
-  templateUrl: './all.component.html',
-  styleUrls: ['./all.component.css']
+  templateUrl: './all.component.html'
 })
 export class AllComponent implements OnInit {
 
