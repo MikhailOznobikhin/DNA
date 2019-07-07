@@ -1,0 +1,10 @@
+button{
+    cursor: pointer;
+    margin: 4%
+}
+div{
+    position: absolute;
+}
+button.active {
+    color: green;
+}

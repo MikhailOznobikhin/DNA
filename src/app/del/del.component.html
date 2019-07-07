@@ -1,0 +1,19 @@
+<h1>{{title}}</h1>
+<div class="search">
+    <input [(ngModel)]="query" placeholder="Поиск...">
+</div>
+
+
+<ul class="list-group">
+  <li class="list-group-item fl" *ngFor="let emj of emjService.emjsDel | search:'id,name':query; let i = index" >
+  <!-- [ngStyle] = "{backgroundColor: (i+1)% 2===0? '#61B7CF': 'transperent'}"> -->
+  <span class='text'>    
+      <b>{{emj.name}} </b><i> {{emj.link}}</i>
+      <span class='imges'>
+        <img class="prv" src={{emj.link}}> 
+        <img  class="full" src={{emj.link}}>
+      </span>
+  </span>
+    <button class="btn btn-danger cont" (click)="retEmj(emj.name)">&times;</button>
+  </li>
+</ul>

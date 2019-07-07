@@ -1,0 +1,42 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+body{margin-top: 50px;}
+.prv{
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    text-align: center;
+}
+.full{
+	display: none;
+}
+h1{text-align: center;}
+.cont{ 
+    float: right;
+    margin-right: 5px;
+}
+.text{
+    margin: auto;
+}
+.fl{
+    display: flex;
+}
+.likecss{
+    background-color: #d8ff7c;
+}
+.imges{
+    position: relative;
+}
+.imges:hover .full{
+	display: block;
+    position: absolute;
+    margin : -45px 0 0 600px;
+}
+
+.search{
+    float: right;
+    margin-top: -50px;
+    border-radius: 10%;
+}
+.search input{
+    padding: 5px;
+}
