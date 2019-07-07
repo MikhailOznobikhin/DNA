@@ -3,8 +3,7 @@ import { EmjService } from '../service/emj.service';
 
 @Component({
   selector: 'app-like',
-  templateUrl: './like.component.html',
-  styleUrls: ['./like.component.css']
+  templateUrl: './like.component.html'
 })
 export class LikeComponent implements OnInit {
 
