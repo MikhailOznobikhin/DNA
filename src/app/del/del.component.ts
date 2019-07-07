@@ -3,8 +3,7 @@ import { EmjService } from '../service/emj.service';
 
 @Component({
   selector: 'app-del',
-  templateUrl: './del.component.html',
-  styleUrls: ['./del.component.css']
+  templateUrl: './del.component.html'
 })
 export class DelComponent implements OnInit {
 
